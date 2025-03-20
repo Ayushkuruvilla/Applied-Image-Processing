@@ -1,0 +1,12 @@
+pillow
+timm
+black
+pygame
+matplotlib
+opencv-contrib-python
+ffmpeg-python
+pyqt5
+scikit-learn
+torch
+torchvision
+torchaudio

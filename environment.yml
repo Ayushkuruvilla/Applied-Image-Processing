@@ -1,0 +1,33 @@
+name: style_transfer_group13
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.6
+  - python=3.9
+  - pillow
+  - timm
+  - black
+  - pygame
+  - matplotlib
+  - opencv
+  - ffmpeg
+  - pyqt
+  - scikit-learn
+  - pytorch=1.12.1
+  - torchaudio=0.12.1
+  - torchvision=0.13.1
+  - plyfile=0.8.1
+  - pip=22.3.1
+  - tqdm
+  - pip:
+      - tensorflow-hub
+      - CairoSVG
+      - svgwrite==1.4.3
+      - dahuffman==0.4.1
+      - vector-quantize-pytorch==1.8.1
+      - networkx==3.2.1
+      - git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for 3DGS
+      - Style_3DGS/submodules/diff-gaussian-rasterization # for 3DGS
+      - Style_3DGS/submodules/simple-knn # for 3DGS

@@ -1,0 +1,6 @@
+[submodule "Style_3DGS/submodules/simple-knn"]
+	path = Style_3DGS/submodules/simple-knn
+	url = https://github.com/camenduru/simple-knn.git
+[submodule "Style_3DGS/submodules/diff-gaussian-rasterization"]
+	path = Style_3DGS/submodules/diff-gaussian-rasterization
+	url = https://github.com/graphdeco-inria/diff-gaussian-rasterization.git
